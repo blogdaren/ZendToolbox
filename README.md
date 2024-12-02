@@ -74,6 +74,8 @@ print_r(getToolboxVersion().PHP_EOL);
 print_r($toolbox);
 ```
 
+## Screenshot
+![output](./Image/output.png)
 
 ## 扩展开发启示录
 
