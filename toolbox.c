@@ -527,7 +527,7 @@ zend_module_entry toolbox_module_entry = {
 #else
     STANDARD_MODULE_HEADER,
 #endif  
-	"toolbox",
+	"ZendToolbox",
 	toolbox_functions,
 	PHP_MINIT(toolbox),
 	PHP_MSHUTDOWN(toolbox),

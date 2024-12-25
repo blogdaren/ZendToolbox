@@ -6,9 +6,9 @@ if(!extension_loaded('toolbox')) {
 }
 $module = 'toolbox';
 $functions = get_extension_funcs($module);
-echo "Functions available in the test extension:$br\n";
+echo "Functions available in the test [ZendToolbox] extension:$br\n";
 foreach($functions as $func) {
-    echo $func."$br\n";
+    echo $func."$br";
 }
 echo "$br\n";
 $function = 'getToolboxVersion';
