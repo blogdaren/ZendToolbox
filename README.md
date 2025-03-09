@@ -3,19 +3,19 @@
 `ZendToolbox`是一个纯C实现的PHP扩展：
 
 * 作为辅助工具箱，主要提供贴近PHP内核层面的功能。
-* 作为虎哥原创课程《深入PHP内核源码》的样板扩展。 
+* 作为虎哥原创视频《深入PHP内核源码》的样板扩展。 
 * 支持PHP7以上的所有版本，windows平台可用性未知。
 
 
 ## 基础功能
 
-* 根据函数名获取其所隶属的PHP模块含ZEND模块。           
+* 根据指定函数名获取其所隶属的PHP模块或ZEND模块。           
 * 获取指定PHP版本下ZEND虚拟机支持的所有opcode指令。      
 
 
 ## 快速安装
 
-假定使用的PHP版本为 `PHP-8.2.12`，源码目录为 `/data/software/src/php-8.2.12`
+假定PHP版本为 `PHP-8.2.12`，PHP内核源码目录为 `/data/software/src/php-8.2.12`
 
 ```
 $ cd /data/software/src/php-8.2.12/ext/
@@ -103,7 +103,7 @@ print_r($toolbox);
 
 
 
-## 程序猿虎哥小站
+## 程序员虎哥小站
 
 * [http://www.phpcreeper.com](http://www.phpcreeper.com)
 * [http://www.blogdaren.com](http://www.blogdaren.com)
