@@ -106,5 +106,4 @@ print_r($toolbox);
 ## 程序员虎哥小站
 
 * [http://www.phpcreeper.com](http://www.phpcreeper.com)
-* [http://www.blogdaren.com](http://www.blogdaren.com)
 
